@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (do not commit)
+data/
+*.csv
+*.parquet
+*.feather
+
+# IDE / OS
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
